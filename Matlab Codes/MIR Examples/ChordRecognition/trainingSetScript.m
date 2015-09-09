@@ -1,0 +1,23 @@
+% training_set_D = build_training_data('The Beatles', 3);
+% training_set_Dsharp = build_training_data('The Beatles', 4);
+training_set_E = build_training_data('The Beatles', 5);
+% training_set_F = build_training_data('The Beatles', 6);
+% training_set_Fsharp = build_training_data('The Beatles', 7);
+% training_set_G = build_training_data('The Beatles', 8);
+% training_set_Gsharp = build_training_data('The Beatles', 9);
+% training_set_A = build_training_data('The Beatles', 10);
+% training_set_Asharp = build_training_data('The Beatles', 11);
+% training_set_B = build_training_data('The Beatles', 12);
+% training_set_c = build_training_data('The Beatles', 13);
+% training_set_csharp = build_training_data('The Beatles',14);
+% training_set_d = build_training_data('The Beatles', 15);
+% training_set_dsharp = build_training_data('The Beatles', 16);
+% training_set_e = build_training_data('The Beatles', 17);
+% training_set_f = build_training_data('The Beatles', 18);
+% training_set_fsharp = build_training_data('The Beatles', 19);
+% training_set_g = build_training_data('The Beatles', 20);
+% training_set_gsharp = build_training_data('The Beatles', 21);
+% training_set_a = build_training_data('The Beatles', 22);
+% training_set_asharp = build_training_data('The Beatles', 23);
+% training_set_b = build_training_data('The Beatles', 24);
+
