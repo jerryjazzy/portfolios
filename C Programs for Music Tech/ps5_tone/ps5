@@ -1,0 +1,44 @@
+/***************************************************************************
+ * ps5.c
+ * 
+ *
+ * Written by Xiao Lu
+ * Spring 2016
+ ***************************************************************************/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <ctype.h>
+// #include <float.h>
+// #include <math.h>
+
+
+int main(int argc, char *argv[])
+{
+	double f0= 440; // frequency of tone to play out
+    double fs = 48000; // sampling frequency of play out
+    int level_dBFS = -24; // level of play out, dBFS
+
+    if (argv[i][0] == '-')
+    {
+    	switch (argv[i][1])
+    	{
+    		case 'f':
+    			f0 = atoi(argv[i+1]);
+    			break;
+    		case 'a':
+    			level_dBFS = atoi(argv[i+1]);
+    			break;
+    		case 's':
+    			fs = atoi(argv[i+1]);
+    			break;
+    	}
+    }
+
+
+
+	return 0;
+}

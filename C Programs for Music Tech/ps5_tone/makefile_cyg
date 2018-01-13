@@ -1,0 +1,17 @@
+# Makefile
+# Program to play a tone
+#
+
+CC      = gcc
+CFLAGS  = -g -std=c99 -Wall 
+LIBS    = -lportaudio 
+
+EXE  = tone_portaudio
+SRCS = tone_portaudio.c
+
+$(EXE): $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) $(LIBS) -o $@
+
+clean:
+	rm -f *~ core $(EXE) *.exe *.o
+	rm -rf *.dSYM

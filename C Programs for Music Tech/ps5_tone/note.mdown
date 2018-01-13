@@ -1,0 +1,14 @@
+## PS6
+
+fprintf(stderr, "Usage: %s inputFile.wav reverbFile.wav output.wav", argv[0]);
+return -1;
+
+
+if ( (isfile = sf_open(ifilename, SFM_READ, &isfinfo)) == NULL )
+
+osfinfo.xxx = isfinfo.xxx;
+
+output be same size of N+M-1
+
+E.G. myProg: myProg.c myProg.h
+	gcc -o my_prog my_prog.c -I/usr/local/include -L/usr/local/lib -lportaudio
